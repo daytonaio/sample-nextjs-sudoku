@@ -1,0 +1,23 @@
+{
+    "name": "Next.js Sudoku Game",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+    "forwardPorts": [
+      3000
+    ],
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "javascript.validate.enable": false,
+          "typescript.validate.enable": false
+        },
+        "extensions": [
+          "esbenp.prettier-vscode",
+          "dbaeumer.vscode-eslint",
+          "ms-toolsai.jupyter",
+          "analystv.vscode-nextjs",
+          "orweiser.vscode-tailwindcss"
+        ]
+      }
+    },
+    "postCreateCommand": "npm install"
+  }
